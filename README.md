@@ -6,6 +6,20 @@ Upload your workout CSV export and get interactive lift progression charts with 
 
 ---
 
+## Screenshots
+
+### Summary Dashboard — all lifts at a glance
+
+![Summary dashboard showing all lifts with stat cards and Deadlift chart](docs/screenshots/summary-dashboard.png)
+
+![Summary dashboard showing Deadlift and Bench Press charts](docs/screenshots/summary-dashboard-2.png)
+
+### Single Lift — drill down with session history
+
+![Single lift view with full chart and session history table](docs/screenshots/single-lift.png)
+
+---
+
 ## What it does
 
 - **Upload** a CSV export from your workout tracking app (SugarWod supported today)
@@ -19,6 +33,10 @@ Upload your workout CSV export and get interactive lift progression charts with 
 > **Your data never leaves your device.**
 >
 > Rep Radar is a fully client-side app — there is no server, no database, and no analytics on your workout data. When you upload a CSV, it is parsed entirely in your browser. Nothing is transmitted anywhere. Closing the tab discards everything.
+
+## Try it with sample data
+
+A real SugarWod export is included at [`sample/sugarwod-sample.csv`](sample/sugarwod-sample.csv) if you want to try the app without your own data.
 
 ## Supported sources
 
